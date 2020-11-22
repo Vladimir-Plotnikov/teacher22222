@@ -1,0 +1,74 @@
+.list {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.link {
+}
+
+.teacher {
+  width: 1690px;
+}
+
+.teacher-container {
+  width: 1314px;
+  margin-left: 130px;
+}
+
+.teacher-title-container {
+  margin: 20px;
+}
+
+.teacher-title {
+}
+
+.teacher-list-container {
+}
+
+.teacher-list-skilz {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  padding-bottom: 10px;
+  padding-left: 90px;
+
+  color: #111518;
+}
+.teacher-list-skilz::after {
+  position: absolute;
+  left: 0%;
+  content: url(../images/galochka.png);
+  padding-right: 34px;
+}
+
+.teacher-list-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 10px;
+
+  color: #b9b9b9;
+}
+
+.teacher-list-container-title {
+}
+
+.teacher-list-container-title::before {
+  display: flex;
+  content: url(../images/stick.png);
+  margin-bottom: 20px;
+}
+
+.teacher-img {
+  width: 530px;
+  height: 667px;
+}
+
+.teacher-description-container {
+  display: flex;
+}
+
+.teacher-link {
+  color: #ff6b09;
+}
